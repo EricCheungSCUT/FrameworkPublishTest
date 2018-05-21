@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.aaa
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "QCloudTerminalLab" => "g_PDTC_storage_DEV_terminallab@tencent.com" }
-  s.source           = { :git => "http://git.code.oa.com/qcloud-terminal/QCloudTestA.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/EricCheungSCUT/FrameworkPublishTest.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.source_files = 'Pod/Classes/**/*'
