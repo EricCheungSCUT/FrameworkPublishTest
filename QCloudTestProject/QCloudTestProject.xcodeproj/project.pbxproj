@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85921A8A70CED9C260E85413 /* libPods-QCloudTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BD2D4B1392499B8B108687 /* libPods-QCloudTestProject.a */; };
+		A87492C820AEF285003A2DE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87492C720AEF285003A2DE3 /* AppDelegate.m */; };
+		A87492CB20AEF285003A2DE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87492CA20AEF285003A2DE3 /* ViewController.m */; };
+		A87492CE20AEF285003A2DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87492CC20AEF285003A2DE3 /* Main.storyboard */; };
+		A87492D020AEF286003A2DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87492CF20AEF286003A2DE3 /* Assets.xcassets */; };
+		A87492D320AEF286003A2DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87492D120AEF286003A2DE3 /* LaunchScreen.storyboard */; };
+		A87492D620AEF286003A2DE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87492D520AEF286003A2DE3 /* main.m */; };
+		A87492E020AEF286003A2DE3 /* QCloudTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87492DF20AEF286003A2DE3 /* QCloudTestProjectTests.m */; };
+		A87492EB20AEF286003A2DE3 /* QCloudTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87492EA20AEF286003A2DE3 /* QCloudTestProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87492DC20AEF286003A2DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87492BB20AEF285003A2DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87492C220AEF285003A2DE3;
+			remoteInfo = QCloudTestProject;
+		};
+		A87492E720AEF286003A2DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87492BB20AEF285003A2DE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87492C220AEF285003A2DE3;
+			remoteInfo = QCloudTestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BD2D4B1392499B8B108687 /* libPods-QCloudTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCloudTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6429B21C0EA4913A9705E5 /* Pods-QCloudTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCloudTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCloudTestProject/Pods-QCloudTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A87492C320AEF285003A2DE3 /* QCloudTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCloudTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87492C620AEF285003A2DE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A87492C720AEF285003A2DE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A87492C920AEF285003A2DE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A87492CA20AEF285003A2DE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A87492CD20AEF285003A2DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A87492CF20AEF286003A2DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A87492D220AEF286003A2DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A87492D420AEF286003A2DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87492D520AEF286003A2DE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A87492DB20AEF286003A2DE3 /* QCloudTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCloudTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87492DF20AEF286003A2DE3 /* QCloudTestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCloudTestProjectTests.m; sourceTree = "<group>"; };
+		A87492E120AEF286003A2DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87492E620AEF286003A2DE3 /* QCloudTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCloudTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87492EA20AEF286003A2DE3 /* QCloudTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCloudTestProjectUITests.m; sourceTree = "<group>"; };
+		A87492EC20AEF286003A2DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B2D05B757D93D8C49FB455 /* Pods-QCloudTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCloudTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCloudTestProject/Pods-QCloudTestProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87492C020AEF285003A2DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85921A8A70CED9C260E85413 /* libPods-QCloudTestProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87492D820AEF286003A2DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87492E320AEF286003A2DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E31FE5963D091174149F541 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18BD2D4B1392499B8B108687 /* libPods-QCloudTestProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DECE9CD9B2E50CFD1914E6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A6429B21C0EA4913A9705E5 /* Pods-QCloudTestProject.debug.xcconfig */,
+				A9B2D05B757D93D8C49FB455 /* Pods-QCloudTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A87492BA20AEF285003A2DE3 = {
+			isa = PBXGroup;
+			children = (
+				A87492C520AEF285003A2DE3 /* QCloudTestProject */,
+				A87492DE20AEF286003A2DE3 /* QCloudTestProjectTests */,
+				A87492E920AEF286003A2DE3 /* QCloudTestProjectUITests */,
+				A87492C420AEF285003A2DE3 /* Products */,
+				5DECE9CD9B2E50CFD1914E6D /* Pods */,
+				3E31FE5963D091174149F541 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A87492C420AEF285003A2DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87492C320AEF285003A2DE3 /* QCloudTestProject.app */,
+				A87492DB20AEF286003A2DE3 /* QCloudTestProjectTests.xctest */,
+				A87492E620AEF286003A2DE3 /* QCloudTestProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87492C520AEF285003A2DE3 /* QCloudTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				A87492C620AEF285003A2DE3 /* AppDelegate.h */,
+				A87492C720AEF285003A2DE3 /* AppDelegate.m */,
+				A87492C920AEF285003A2DE3 /* ViewController.h */,
+				A87492CA20AEF285003A2DE3 /* ViewController.m */,
+				A87492CC20AEF285003A2DE3 /* Main.storyboard */,
+				A87492CF20AEF286003A2DE3 /* Assets.xcassets */,
+				A87492D120AEF286003A2DE3 /* LaunchScreen.storyboard */,
+				A87492D420AEF286003A2DE3 /* Info.plist */,
+				A87492D520AEF286003A2DE3 /* main.m */,
+			);
+			path = QCloudTestProject;
+			sourceTree = "<group>";
+		};
+		A87492DE20AEF286003A2DE3 /* QCloudTestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A87492DF20AEF286003A2DE3 /* QCloudTestProjectTests.m */,
+				A87492E120AEF286003A2DE3 /* Info.plist */,
+			);
+			path = QCloudTestProjectTests;
+			sourceTree = "<group>";
+		};
+		A87492E920AEF286003A2DE3 /* QCloudTestProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A87492EA20AEF286003A2DE3 /* QCloudTestProjectUITests.m */,
+				A87492EC20AEF286003A2DE3 /* Info.plist */,
+			);
+			path = QCloudTestProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87492C220AEF285003A2DE3 /* QCloudTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87492EF20AEF286003A2DE3 /* Build configuration list for PBXNativeTarget "QCloudTestProject" */;
+			buildPhases = (
+				28A5006368F4B71230D88865 /* [CP] Check Pods Manifest.lock */,
+				A87492BF20AEF285003A2DE3 /* Sources */,
+				A87492C020AEF285003A2DE3 /* Frameworks */,
+				A87492C120AEF285003A2DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCloudTestProject;
+			productName = QCloudTestProject;
+			productReference = A87492C320AEF285003A2DE3 /* QCloudTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A87492DA20AEF286003A2DE3 /* QCloudTestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87492F220AEF286003A2DE3 /* Build configuration list for PBXNativeTarget "QCloudTestProjectTests" */;
+			buildPhases = (
+				A87492D720AEF286003A2DE3 /* Sources */,
+				A87492D820AEF286003A2DE3 /* Frameworks */,
+				A87492D920AEF286003A2DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87492DD20AEF286003A2DE3 /* PBXTargetDependency */,
+			);
+			name = QCloudTestProjectTests;
+			productName = QCloudTestProjectTests;
+			productReference = A87492DB20AEF286003A2DE3 /* QCloudTestProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A87492E520AEF286003A2DE3 /* QCloudTestProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87492F520AEF286003A2DE3 /* Build configuration list for PBXNativeTarget "QCloudTestProjectUITests" */;
+			buildPhases = (
+				A87492E220AEF286003A2DE3 /* Sources */,
+				A87492E320AEF286003A2DE3 /* Frameworks */,
+				A87492E420AEF286003A2DE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87492E820AEF286003A2DE3 /* PBXTargetDependency */,
+			);
+			name = QCloudTestProjectUITests;
+			productName = QCloudTestProjectUITests;
+			productReference = A87492E620AEF286003A2DE3 /* QCloudTestProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87492BB20AEF285003A2DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					A87492C220AEF285003A2DE3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A87492DA20AEF286003A2DE3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A87492C220AEF285003A2DE3;
+					};
+					A87492E520AEF286003A2DE3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A87492C220AEF285003A2DE3;
+					};
+				};
+			};
+			buildConfigurationList = A87492BE20AEF285003A2DE3 /* Build configuration list for PBXProject "QCloudTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A87492BA20AEF285003A2DE3;
+			productRefGroup = A87492C420AEF285003A2DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87492C220AEF285003A2DE3 /* QCloudTestProject */,
+				A87492DA20AEF286003A2DE3 /* QCloudTestProjectTests */,
+				A87492E520AEF286003A2DE3 /* QCloudTestProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87492C120AEF285003A2DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87492D320AEF286003A2DE3 /* LaunchScreen.storyboard in Resources */,
+				A87492D020AEF286003A2DE3 /* Assets.xcassets in Resources */,
+				A87492CE20AEF285003A2DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87492D920AEF286003A2DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87492E420AEF286003A2DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28A5006368F4B71230D88865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QCloudTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87492BF20AEF285003A2DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87492CB20AEF285003A2DE3 /* ViewController.m in Sources */,
+				A87492D620AEF286003A2DE3 /* main.m in Sources */,
+				A87492C820AEF285003A2DE3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87492D720AEF286003A2DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87492E020AEF286003A2DE3 /* QCloudTestProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87492E220AEF286003A2DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87492EB20AEF286003A2DE3 /* QCloudTestProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87492DD20AEF286003A2DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87492C220AEF285003A2DE3 /* QCloudTestProject */;
+			targetProxy = A87492DC20AEF286003A2DE3 /* PBXContainerItemProxy */;
+		};
+		A87492E820AEF286003A2DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87492C220AEF285003A2DE3 /* QCloudTestProject */;
+			targetProxy = A87492E720AEF286003A2DE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A87492CC20AEF285003A2DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87492CD20AEF285003A2DE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A87492D120AEF286003A2DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87492D220AEF286003A2DE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87492ED20AEF286003A2DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A87492EE20AEF286003A2DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87492F020AEF286003A2DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A6429B21C0EA4913A9705E5 /* Pods-QCloudTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTestProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87492F120AEF286003A2DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B2D05B757D93D8C49FB455 /* Pods-QCloudTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTestProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A87492F320AEF286003A2DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTestProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCloudTestProject.app/QCloudTestProject";
+			};
+			name = Debug;
+		};
+		A87492F420AEF286003A2DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTestProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCloudTestProject.app/QCloudTestProject";
+			};
+			name = Release;
+		};
+		A87492F620AEF286003A2DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTestProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QCloudTestProject;
+			};
+			name = Debug;
+		};
+		A87492F720AEF286003A2DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QCloudTestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Cheung.QCloudTestProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QCloudTestProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87492BE20AEF285003A2DE3 /* Build configuration list for PBXProject "QCloudTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87492ED20AEF286003A2DE3 /* Debug */,
+				A87492EE20AEF286003A2DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87492EF20AEF286003A2DE3 /* Build configuration list for PBXNativeTarget "QCloudTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87492F020AEF286003A2DE3 /* Debug */,
+				A87492F120AEF286003A2DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87492F220AEF286003A2DE3 /* Build configuration list for PBXNativeTarget "QCloudTestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87492F320AEF286003A2DE3 /* Debug */,
+				A87492F420AEF286003A2DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87492F520AEF286003A2DE3 /* Build configuration list for PBXNativeTarget "QCloudTestProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87492F620AEF286003A2DE3 /* Debug */,
+				A87492F720AEF286003A2DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A87492BB20AEF285003A2DE3 /* Project object */;
+}

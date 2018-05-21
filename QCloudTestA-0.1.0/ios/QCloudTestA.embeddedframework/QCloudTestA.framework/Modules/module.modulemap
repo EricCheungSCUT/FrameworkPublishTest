@@ -1,0 +1,6 @@
+framework module QCloudTestA {
+  umbrella header "QCloudTestA.h"
+
+  export *
+  module * { export * }
+}

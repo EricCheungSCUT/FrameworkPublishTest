@@ -1,0 +1,5 @@
+target 'QCloudTestProject' do
+pod 'QCloudTestA', path:"../QCloudTestA"
+pod 'QCloudTestB',path:"../QCloudTestB"
+
+end
